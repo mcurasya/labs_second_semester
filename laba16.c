@@ -1,7 +1,4 @@
 #include <stdio.h>
-#undef and
-#undef or
-#undef not
 #define and(x, y) (x) & (y)
 #define or(x, y) (x) | (y)
 #define not(x) ~(x)
